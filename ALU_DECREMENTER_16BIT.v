@@ -1,0 +1,16 @@
+module ALU_DECREMENTER(DEC,CARRY,SIGN,ZERO,PARITY,OVERFLOW,A);
+input [15:0]A;
+output [15:0]DEC;
+output CARRY;
+output SIGN;
+output ZERO;
+output PARITY;
+output OVERFLOW;
+
+ALU_ADDER_16BIT ADD(.SUM(DEC),
+.CARRY(CARRY),.SIGN(SIGN),
+.ZERO(ZERO),.PARITY(PARITY),
+.OVERFLOW(OVERFLOW),.A(A),
+.B(16'hffff),.CIN(1'B0));
+
+endmodule
