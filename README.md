@@ -29,6 +29,6 @@ This project implements a 16-bit Arithmetic Logic Unit (ALU) using Verilog HDL w
 Electronics & Telecommunication Engineering Student | Aspiring RTL Design & Verification Engineer
 
 
-GitHub: https://github.com/upadhyepratIiksha-dot
+GitHub: https://github.com/upadhyepratiiksha-dot
 
 LinkedIn: https://linkedin.com/in/pratiksha-upadhye-3800a4326
